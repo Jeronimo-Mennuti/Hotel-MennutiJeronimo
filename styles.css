@@ -1,0 +1,114 @@
+/* CSS HOME */
+#body-home{
+/*background-image: url(./fondo/fondo.jpg) ;*/
+}
+
+#header-home{
+background-color: lightsalmon;
+}
+
+#main-home{
+display:flex;
+background-color: lightseagreen;
+justify-content: center;
+padding-bottom: 36%
+}
+
+.lista{
+display:flex;
+justify-content: center;
+
+}
+
+.texto-main{
+text-align:center;
+display:flex;
+flex-direction: column;
+align-items: stretch;
+}
+
+.titulo{
+display: flex;
+justify-content: center;
+}
+
+#footer-home{
+display:flex;
+align-items: stretch;
+flex-direction: column-reverse;
+background-color: lightgreen;
+}
+
+.logos{
+display:flex;
+justify-content: flex-end;
+align-items: flex-end;
+flex-direction: row;
+}
+
+.footer2{
+display:flex;
+justify-content: center;
+align-items: flex-end;
+}
+
+.footer1{
+display:flex;
+}
+
+/* CSS RESERVAS */
+
+#header-reservas{
+background-color: lightsalmon;
+padding-bottom: 15%;
+}
+
+
+.lista-r{
+display:flex;
+justify-content: center;
+}
+
+#main-reservas{
+display:flex;
+justify-content: center;
+padding-bottom: 17%;
+background-color: lightseagreen;
+}
+
+.form{
+display:flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.texto-main-r{
+    display:flex;
+    justify-content: center;
+}
+
+
+
+#footer-reservas{
+display:flex;
+align-items: stretch;
+flex-direction: column-reverse;
+background-color: lightgreen;
+}
+    
+.logos{
+display:flex;
+justify-content: flex-end;
+align-items: flex-end;
+flex-direction: row;
+}
+    
+.footer2-r{
+display:flex;
+justify-content: center;
+align-items: flex-end;
+}
+    
+.footer1-r{
+display:flex;
+}
