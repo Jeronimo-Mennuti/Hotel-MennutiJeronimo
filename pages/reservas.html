@@ -17,8 +17,8 @@
         <div class="col titulo">
             <h1>Grichting Hotel</h1>
         </div>
-        <div class="col lista-r">
-            <nav class="navbar navbar-expand-lg">
+        <div class="col lista">
+            <nav class="navbar navbar-expand-sm">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -51,23 +51,25 @@
             <div class="texto-main-r">
                 <h2>Reservas</h2>
             </div>
-            <div class="form">
-                <div>
-                    <fieldset>
-                        <label>Nombre: <br><input type="text" required /><br></label>
-                        <label>Email: <br><input type="text" required /><br></label>
-                        <label>Telefono: <br><input type="email" required /><br></label>
-                        <label>Mensaje: <br><input type="password" pattern="[a-z0-5]{8,}" required /><br></label>
-                    </fieldset>
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                 </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Email</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
                 </div>
-                <div>
-                    <fieldset>
-                        <label class="checkbox"><input  type="checkbox" required /> Acepto los terminos y condiciones</label>
-                        <br>
-                        <input type="submit" value="Enviar" />
-                    </fieldset>
+              <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Telefono</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
                 </div>
-            </div>
+              <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Acepto los terminos y condiciones</label>
+                </div>
+                <button type="submit" class="btn btn-primary" id="button-r">Enviar</button>
+              </form>
         </section>
         </main>
         <footer id="footer-reservas">
