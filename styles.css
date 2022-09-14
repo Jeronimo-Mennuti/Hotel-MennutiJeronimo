@@ -84,7 +84,7 @@ background-color:antiquewhite;
 }
 
 #header-reservas{
-background-image: url(./images/reservas.webp);
+background-image: url(./images/fondo2reservas.webp);
 background: cover;
 background-repeat: no-repeat;
 background-size: cover;
@@ -206,6 +206,7 @@ display:flex;
 justify-content: center;
 text-align:center;
 font-family: 'Overpass', sans-serif;
+text-transform: uppercase;
 }
 
 .main-img1{
@@ -225,6 +226,7 @@ text-align:center;
 
 .main-sub2{
 color:black;
+text-transform: uppercase;
 }
 
 .main-menu{
@@ -246,3 +248,37 @@ float:right;
 height: 45vh;
 width: 70vh;
 }
+
+
+/* CSS GALERIA */
+#body-galeria{
+font-family: 'cincel decorative';
+background-color:antiquewhite;
+}
+
+#header-galeria{
+background-image: url(./images/fondogaleria.webp);
+background-position:0%;
+background-repeat: no-repeat;
+background-size: cover;
+height: 40vh;
+}
+
+.main-titulo-galeria{
+display:flex;
+justify-content: center;
+color:orange;
+font-family: 'Overpass', sans-serif;
+flex-direction: column;
+align-items: center;
+text-transform: uppercase;
+}
+
+.main-sub-galeria{
+display:flex;
+justify-content: center;
+text-align:center;
+font-family: 'Overpass', sans-serif;
+color:black;
+}
+
