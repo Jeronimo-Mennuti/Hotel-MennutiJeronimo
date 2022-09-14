@@ -88,8 +88,9 @@ background-image: url(./images/fondo2reservas.webp);
 background: cover;
 background-repeat: no-repeat;
 background-size: cover;
-background-position:0%;
+background-position: bottom;
 height:40vh;
+background-attachment: fixed;
 }
 
 #main-reservas{
@@ -147,10 +148,11 @@ background-color:antiquewhite;
 
 #header-comollegar{
 background-image: url(./images/fondo-comollegar.jpg);
-background-position:0%;
+background-position: bottom;
 background: cover;
 background-repeat: no-repeat;
 height:40vh;
+background-attachment: fixed;
 }
 
 #main-titulo-r{
@@ -188,10 +190,11 @@ background-color:antiquewhite;
 
 #header-restaurant{
 background-image: url(./images/fondo-restaurant.webp);
-background-position:0%;
+background-position: bottom;
 background-repeat: no-repeat;
 background-size: cover;
 height: 40vh;
+background-attachment: fixed;
 }
 
 .texto-main-rest{
@@ -258,10 +261,11 @@ background-color:antiquewhite;
 
 #header-galeria{
 background-image: url(./images/fondogaleria.webp);
-background-position:0%;
+background-position: bottom;
 background-repeat: no-repeat;
 background-size: cover;
 height: 40vh;
+background-attachment: fixed;
 }
 
 .main-titulo-galeria{
@@ -282,3 +286,4 @@ font-family: 'Overpass', sans-serif;
 color:black;
 }
 
+/* ACTIVIDADES CSS*/
