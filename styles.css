@@ -16,7 +16,7 @@ padding-bottom: 19%;
 #main-home{
 display:flex;
 justify-content: center;
-padding-bottom: 16%;
+padding-bottom: 15%;
 
 }
 
@@ -29,6 +29,8 @@ justify-content: center;
 .lista{
 display:flex;
 justify-content: center;
+font-family: 'Overpass', sans-serif;
+font-size: 20px;
 }
 
 .texto-main{
@@ -38,6 +40,7 @@ flex-direction: column;
 align-items: stretch;
 color:orange;
 font-size: 40px;
+font-family: 'Overpass', sans-serif;
 }
 
 #texto-main2{
@@ -82,28 +85,28 @@ background-color:antiquewhite;
 
 #header-reservas{
 background-image: url(./images/reservas.webp);
-padding-bottom: 14%;
-background-position:bottom;
 background: cover;
 background-repeat: no-repeat;
 background-size: cover;
-background-position: 20%;
+background-position:0%;
+height:40vh;
 }
 
 #main-reservas{
 display:flex;
 justify-content: center;
-padding-bottom: 6%;
+padding-bottom: 1%;
 }
 
 .texto-main-r{
 display:flex;
 justify-content: center;
 color:orange;
+font-family: 'Overpass', sans-serif;
 }
 
 #button-r{
-background-color: black;
+background-color: orange;
 }
 
 #footer-reservas{
@@ -125,9 +128,13 @@ justify-content: center;
 align-items: flex-end;
 color:orange;
 }
-    
+
 .footer1-r{
 display:flex;
+}
+
+.mb-3{
+font-family: 'Overpass', sans-serif;
 }
 
 
@@ -140,11 +147,10 @@ background-color:antiquewhite;
 
 #header-comollegar{
 background-image: url(./images/fondo-comollegar.jpg);
-padding-bottom: 14%;
 background-position:0%;
 background: cover;
 background-repeat: no-repeat;
-background-size: cover;
+height:40vh;
 }
 
 #main-titulo-r{
@@ -152,6 +158,7 @@ display:flex;
 justify-content: center;
 color: orange;
 height: 15vh;
+font-family: 'Overpass', sans-serif;
 }
 
 .main-subtitulos-r{
@@ -159,6 +166,8 @@ display: flex;
 justify-content: space-evenly;
 height: 30vh;
 color:orange;
+font-family: 'Overpass', sans-serif;
+text-align:center;
 }
 
 #main-maps{
@@ -168,4 +177,72 @@ justify-content: space-around;
 
 #parrafos{
 color: black;
+}
+
+
+/*CSS RESTAURANT */
+#body-restaurant{
+font-family: 'cincel decorative';
+background-color:antiquewhite;
+}
+
+#header-restaurant{
+background-image: url(./images/fondo-restaurant.webp);
+background-position:0%;
+background-repeat: no-repeat;
+background-size: cover;
+height: 40vh;
+}
+
+.texto-main-rest{
+display:flex;
+justify-content: center;
+color:orange;
+font-family: 'Overpass', sans-serif;
+}
+
+.main-sub{
+display:flex;
+justify-content: center;
+text-align:center;
+font-family: 'Overpass', sans-serif;
+}
+
+.main-img1{
+height: 45vh;
+width: 80vh;
+}
+
+#texto-apertura{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color:orange;
+font-family: 'Overpass', sans-serif;
+text-align:center;
+}
+
+.main-sub2{
+color:black;
+}
+
+.main-menu{
+display:flex;
+flex-direction: column;
+align-items: center;
+font-family: 'Overpass', sans-serif;
+}
+
+.titulo-menu{
+color:orange;
+}
+
+#main-img-desayuno2{
+float:right;
+}
+
+.img-carrusel{
+height: 45vh;
+width: 70vh;
 }
