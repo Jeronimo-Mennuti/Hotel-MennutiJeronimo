@@ -142,6 +142,12 @@ color:white;
     .main-img1{
     height: 45vh;
     width: 80vh;
+    cursor:pointer;
+    transition: padding 0.3s ease;
+    }
+    
+    .main-img1:hover{
+    padding: 1rem;
     }
     
     #texto-apertura{
@@ -296,6 +302,7 @@ color:white;
     .texto-mapa{
     display:flex;
     height: 60vh;
+    transform: translate(10px, 20px);
     }
     
     .fondo-actividades2{
