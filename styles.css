@@ -16,7 +16,7 @@ padding-bottom: 19%;
 #main-home{
 display:flex;
 justify-content: center;
-padding-bottom: 15%;
+padding-bottom: 14%;
 
 }
 
@@ -76,7 +76,239 @@ display:flex;
 color:white;
 }
 
-/* CSS RESERVAS */
+/* CSS GALERIA */
+#body-galeria{
+    font-family: 'cincel decorative';
+    background-color:antiquewhite;
+    }
+    
+    #header-galeria{
+    background-image: url(./images/fondogaleria.webp);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    background-attachment: fixed;
+    }
+    
+    .main-titulo-galeria{
+    display:flex;
+    justify-content: center;
+    color:orange;
+    font-family: 'Overpass', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    }
+    
+    .main-sub-galeria{
+    display:flex;
+    justify-content: center;
+    text-align:center;
+    font-family: 'Overpass', sans-serif;
+    color:black;
+    }
+
+/*CSS RESTAURANT */
+#body-restaurant{
+    font-family: 'cincel decorative';
+    background-color:antiquewhite;
+    }
+    
+    #header-restaurant{
+    background-image: url(./images/fondo-restaurant.webp);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    background-attachment: fixed;
+    }
+    
+    .texto-main-rest{
+    display:flex;
+    justify-content: center;
+    color:orange;
+    font-family: 'Overpass', sans-serif;
+    }
+    
+    .main-sub{
+    display:flex;
+    justify-content: center;
+    text-align:center;
+    font-family: 'Overpass', sans-serif;
+    text-transform: uppercase;
+    }
+    
+    .main-img1{
+    height: 45vh;
+    width: 80vh;
+    }
+    
+    #texto-apertura{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:orange;
+    font-family: 'Overpass', sans-serif;
+    text-align:center;
+    }
+    
+    .main-sub2{
+    color:black;
+    text-transform: uppercase;
+    }
+    
+    .main-menu{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+    }
+    
+    .titulo-menu{
+    color:orange;
+    }
+    
+    #main-img-desayuno2{
+    float:right;
+    }
+    
+    .img-carrusel{
+    height: 45vh;
+    width: 70vh;
+    }
+
+    /* CSS COMO LLEGAR */
+
+#body-comollegar{
+    font-family: 'cincel decorative';
+    background-color:antiquewhite;
+    }
+    
+    #header-comollegar{
+    background-image: url(./images/fondo-comollegar.jpg);
+    background-position: bottom;
+    background: cover;
+    background-repeat: no-repeat;
+    height:40vh;
+    background-attachment: fixed;
+    }
+    
+    #main-titulo-r{
+    display:flex;
+    justify-content: center;
+    color: orange;
+    height: 15vh;
+    font-family: 'Overpass', sans-serif;
+    }
+    
+    .main-subtitulos-r{
+    display: flex;
+    justify-content: space-evenly;
+    height: 30vh;
+    color:orange;
+    font-family: 'Overpass', sans-serif;
+    text-align:center;
+    }
+    
+    #main-maps{
+    display:flex;
+    justify-content: center;
+    }
+    
+    #parrafos{
+    color: black;
+    display:flex;
+    }
+
+    /* CSS ACTIVIDADES */
+
+    #body-actividades{
+    font-family: 'cincel decorative';
+    background-color:antiquewhite;
+    }
+        
+    #header-actividades{
+    background-image: url(./images/actividades5.jpg);
+    background-position: bottom;
+    background: cover;
+    background-repeat: no-repeat;
+    height:40vh;
+    background-attachment: fixed;
+    background-size:cover;
+    }
+    
+    #footer-actividades{
+    display:flex;
+    align-items: stretch;
+    flex-direction: column-reverse;
+    }
+    
+    #main-titulo-a{
+    display:flex;
+    justify-content: center;
+    color: orange;
+    height: 15vh;
+    font-family: 'Overpass', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    height: 15vh;
+    justify-content: flex-end;
+    background-image: linear-gradient(to right, red, orange, yellow);
+    }
+    
+    .main-sub-a{
+    display:flex;
+    color:black;
+    }
+    
+    #main-subtitulos2-a{
+    display: flex;
+    justify-content: flex-start;
+    height: 30vh;
+    color:orange;
+    font-family: 'Overpass', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    align-content: normal;
+    }
+    
+    .logos{
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+    }
+                
+    .footer2-a{
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    color:orange;
+    }
+            
+    .footer1-a{
+    display:flex;
+    }
+    
+    .texto-mapa{
+    display:flex;
+    height: 60vh;
+    }
+    
+    .fondo-actividades2{
+    background-image: url(./images/actividades5.jpg);
+    background-position: bottom;
+    background: cover;
+    background-repeat: no-repeat;
+    height:45vh;
+    background-attachment: fixed;
+    background-size:cover;
+    }
+
+    /* CSS RESERVAS */
 
 #body-reservas{
 font-family: 'cincel decorative';
@@ -96,7 +328,6 @@ background-attachment: fixed;
 #main-reservas{
 display:flex;
 justify-content: center;
-padding-bottom: 1%;
 }
 
 .texto-main-r{
@@ -139,151 +370,9 @@ font-family: 'Overpass', sans-serif;
 }
 
 
-/* CSS COMO LLEGAR */
-
-#body-comollegar{
-font-family: 'cincel decorative';
-background-color:antiquewhite;
-}
-
-#header-comollegar{
-background-image: url(./images/fondo-comollegar.jpg);
-background-position: bottom;
-background: cover;
-background-repeat: no-repeat;
-height:40vh;
-background-attachment: fixed;
-}
-
-#main-titulo-r{
-display:flex;
-justify-content: center;
-color: orange;
-height: 15vh;
-font-family: 'Overpass', sans-serif;
-}
-
-.main-subtitulos-r{
-display: flex;
-justify-content: space-evenly;
-height: 30vh;
-color:orange;
-font-family: 'Overpass', sans-serif;
-text-align:center;
-}
-
-#main-maps{
-display:flex;
-justify-content: space-around;
-}
-
-#parrafos{
-color: black;
-}
 
 
-/*CSS RESTAURANT */
-#body-restaurant{
-font-family: 'cincel decorative';
-background-color:antiquewhite;
-}
-
-#header-restaurant{
-background-image: url(./images/fondo-restaurant.webp);
-background-position: bottom;
-background-repeat: no-repeat;
-background-size: cover;
-height: 40vh;
-background-attachment: fixed;
-}
-
-.texto-main-rest{
-display:flex;
-justify-content: center;
-color:orange;
-font-family: 'Overpass', sans-serif;
-}
-
-.main-sub{
-display:flex;
-justify-content: center;
-text-align:center;
-font-family: 'Overpass', sans-serif;
-text-transform: uppercase;
-}
-
-.main-img1{
-height: 45vh;
-width: 80vh;
-}
-
-#texto-apertura{
-display:flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-color:orange;
-font-family: 'Overpass', sans-serif;
-text-align:center;
-}
-
-.main-sub2{
-color:black;
-text-transform: uppercase;
-}
-
-.main-menu{
-display:flex;
-flex-direction: column;
-align-items: center;
-font-family: 'Overpass', sans-serif;
-}
-
-.titulo-menu{
-color:orange;
-}
-
-#main-img-desayuno2{
-float:right;
-}
-
-.img-carrusel{
-height: 45vh;
-width: 70vh;
-}
 
 
-/* CSS GALERIA */
-#body-galeria{
-font-family: 'cincel decorative';
-background-color:antiquewhite;
-}
 
-#header-galeria{
-background-image: url(./images/fondogaleria.webp);
-background-position: bottom;
-background-repeat: no-repeat;
-background-size: cover;
-height: 40vh;
-background-attachment: fixed;
-}
 
-.main-titulo-galeria{
-display:flex;
-justify-content: center;
-color:orange;
-font-family: 'Overpass', sans-serif;
-flex-direction: column;
-align-items: center;
-text-transform: uppercase;
-}
-
-.main-sub-galeria{
-display:flex;
-justify-content: center;
-text-align:center;
-font-family: 'Overpass', sans-serif;
-color:black;
-}
-
-/* ACTIVIDADES CSS*/
