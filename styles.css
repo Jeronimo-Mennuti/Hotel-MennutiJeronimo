@@ -1,7 +1,7 @@
 /* CSS HOME */
 #body-home{
 font-family: 'cincel decorative';
-background-image: url(./images/leukerbad.jpg);
+background-image: url(./images/fondo-home.jpg);
 background-position:bottom;
 background: cover;
 background-repeat: no-repeat;
@@ -23,7 +23,7 @@ padding-bottom: 14%;
 .titulo{
 color: orange;
 display:flex;
-justify-content: center;
+justify-content: flex-start;
 }
 
 .lista{
@@ -109,6 +109,11 @@ color:white;
     color:black;
     }
 
+.carrusel-div{
+display:flex;
+justify-content: space-around;
+}
+
 /*CSS RESTAURANT */
 #body-restaurant{
     font-family: 'cincel decorative';
@@ -139,16 +144,10 @@ color:white;
     text-transform: uppercase;
     }
     
-    .main-img1{
-    height: 45vh;
-    width: 80vh;
-    cursor:pointer;
-    transition: padding 0.3s ease;
-    }
-    
-    .main-img1:hover{
-    padding: 1rem;
-    }
+.main-img1{
+height: 45vh;
+width: 80vh;
+}
     
     #texto-apertura{
     display:flex;
@@ -262,7 +261,6 @@ color:white;
     text-align:center;
     height: 15vh;
     justify-content: flex-end;
-    background-image: linear-gradient(to right, red, orange, yellow);
     }
     
     .main-sub-a{
@@ -314,6 +312,31 @@ color:white;
     background-attachment: fixed;
     background-size:cover;
     }
+
+#cards{
+justify-content: center;
+}
+
+.card{
+font-family: 'Overpass', sans-serif;
+padding:0%;
+text-align: center;
+box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+transition: all 0.25s;
+margin: 10px;
+}
+
+.card:hover{
+transform: translateY(-15px);
+box-shadow: 10 15px 20px rgba(0, 0, 0, 0.2);
+cursor:pointer;
+}
+
+.card-title{
+color: orange;
+text-align:center;
+
+}
 
     /* CSS RESERVAS */
 
@@ -375,8 +398,6 @@ display:flex;
 .mb-3{
 font-family: 'Overpass', sans-serif;
 }
-
-
 
 
 
