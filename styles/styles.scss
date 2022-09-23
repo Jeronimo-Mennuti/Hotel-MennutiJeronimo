@@ -1,0 +1,481 @@
+                                                          /* CSS HOME */
+#body-home {
+    font-family: "cincel decorative";
+    background-image: url(./images/fondo-home.jpg);
+    background-position: bottom;
+    background: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20%;
+  }
+  
+  #header-home {
+    padding-bottom: 19%;
+  }
+  
+  #main-home {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 14%;
+  }
+  
+  .titulo {
+    color: orange;
+    display: flex;
+    justify-content: flex-start;
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  .lista {
+    display: flex;
+    justify-content: center;
+    font-family: "Overpass", sans-serif;
+    font-size: 20px;
+  }
+  
+  .texto-main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    color: orange;
+    font-size: 40px;
+    font-family: "Overpass", sans-serif;
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  #texto-main2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+  }
+  
+  #footer-home {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column-reverse;
+  }
+  
+  .logos {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+    opacity: 0.8;
+  }
+  
+  .footer2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: orange;
+    text-shadow: 1px 1px 2px grey;
+  }
+  
+  .footer1 {
+    display: flex;
+    color: white;
+  }
+  
+  /* CSS GALERIA */
+  #body-galeria {
+    font-family: "cincel decorative";
+    background-color: antiquewhite;
+  }
+  
+  #header-galeria {
+    background-image: url(./images/fondogaleria.webp);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    background-attachment: fixed;
+  }
+  
+  .main-titulo-galeria {
+    display: flex;
+    justify-content: center;
+    color: orange;
+    font-family: "Overpass", sans-serif;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    text-shadow: 1px 1px 2px grey;
+  }
+  
+  .main-sub-galeria {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Overpass", sans-serif;
+    color: black;
+  }
+  
+  .carrusel-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .fondo-galeria2 {
+    display: flex;
+    background-image: url(./images/fondogaleria.webp);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 40vh;
+    margin-top: 100px;
+  }
+  
+  /*CSS RESTAURANT */
+  #body-restaurant {
+    font-family: "cincel decorative";
+    background-color: antiquewhite;
+  }
+  
+  #header-restaurant {
+    background-image: url(./images/fondo-restaurant.webp);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    background-attachment: fixed;
+  }
+  
+  .texto-main-rest {
+    display: flex;
+    justify-content: center;
+    color: orange;
+    font-family: "Overpass", sans-serif;
+    padding-top: 80px;
+    text-shadow: 1px 1px 2px grey;
+  }
+  
+  .main-sub {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Overpass", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    text-shadow: 1px 1px 2px grey;
+  }
+  
+  .main-img1 {
+    height: 45vh;
+    width: 80vh;
+    margin-bottom: 100px;
+  }
+  
+  #texto-apertura {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    font-family: "Overpass", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 2px grey;
+  }
+  
+  .main-sub2 {
+    color: black;
+    text-transform: uppercase;
+  }
+  
+  .main-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Overpass", sans-serif;
+    margin-bottom: 100px;
+    text-shadow: 1px 1px 2px grey;
+  }
+  
+  .titulo-menu {
+    color: orange;
+  }
+  
+  #main-img-desayuno2 {
+    float: right;
+  }
+  
+  .carrusel-div-r {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+  
+  .fondo-restaurant2 {
+    display: flex;
+    background-image: url(./images/fondo-restaurant.webp);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    background-attachment: fixed;
+    padding-top: 100px;
+    margin-bottom: 40px;
+  }
+  
+  /* CSS ACTIVIDADES */
+  #body-actividades {
+    font-family: "cincel decorative";
+    background-color: antiquewhite;
+  }
+  
+  #header-actividades {
+    background-image: url(./images/actividades5.jpg);
+    background-position: bottom;
+    background: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .text-header1 {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  #footer-actividades {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column-reverse;
+  }
+  
+  #main-titulo-a {
+    display: flex;
+    justify-content: center;
+    color: orange;
+    height: 15vh;
+    font-family: "Overpass", sans-serif;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 15vh;
+    justify-content: flex-end;
+    text-shadow: 1px 1px 2px grey;
+  }
+  
+  .main-sub-a {
+    display: flex;
+    color: black;
+  }
+  
+  #main-subtitulos2-a {
+    display: flex;
+    justify-content: flex-start;
+    height: 30vh;
+    color: orange;
+    font-family: "Overpass", sans-serif;
+    flex-direction: column;
+    align-items: center;
+    align-content: normal;
+    text-shadow: 1px 1px 2px grey;
+  }
+  
+  .logos {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+  }
+  
+  .footer2-a {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: orange;
+    text-shadow: 1px 1px 2px grey;
+  }
+  
+  .footer1-a {
+    display: flex;
+  }
+  
+  .texto-mapa {
+    display: flex;
+    height: 60vh;
+    transform: translate(10px, 20px);
+  }
+  
+  .fondo-actividades2 {
+    background-image: url(./images/actividades5.jpg);
+    background-position: bottom;
+    background: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 50px;
+  }
+  
+  #cards {
+    justify-content: center;
+  }
+  
+  .card {
+    font-family: "Overpass", sans-serif;
+    padding: 0%;
+    text-align: center;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    transition: all 0.25s;
+    margin: 10px;
+  }
+  
+  .card:hover {
+    transform: translateY(-15px);
+    box-shadow: 10 15px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .card-title {
+    color: orange;
+    text-align: center;
+  }
+  
+  /* CSS COMO LLEGAR */
+  #body-comollegar {
+    font-family: "cincel decorative";
+    background-color: antiquewhite;
+  }
+  
+  #header-comollegar {
+    background-image: url(./images/fondo-comollegar.jpg);
+    background-position: bottom;
+    background: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    background-attachment: fixed;
+  }
+  
+  #main-titulo-r {
+    display: flex;
+    justify-content: center;
+    color: orange;
+    height: 15vh;
+    font-family: "Overpass", sans-serif;
+    text-shadow: 1px 1px 2px grey;
+  }
+  
+  .main-subtitulos-r {
+    display: flex;
+    justify-content: space-evenly;
+    height: 30vh;
+    color: orange;
+    font-family: "Overpass", sans-serif;
+    text-align: center;
+  }
+  
+  #main-maps {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+  
+  #parrafos {
+    color: black;
+    display: flex;
+  }
+  
+  .fondo-comollegar2 {
+    background-image: url(./images/fondo-comollegar.jpg);
+    background-position: bottom;
+    background: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    background-attachment: fixed;
+    margin-bottom: 40px;
+  }
+  
+  /* CSS RESERVAS */
+  #body-reservas {
+    font-family: "cincel decorative";
+    background-color: antiquewhite;
+    background-image: url(./images/fondoreservas2.jpg);
+    background: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 40vh;
+    background-attachment: fixed;
+  }
+  
+  #header-reservas {
+    background-image: url(./images/fondoreservas2.jpg);
+    background: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 30vh;
+    background-attachment: fixed;
+  }
+  
+  #main-reservas {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+  
+  #texto-main-r {
+    display: flex;
+    justify-content: center;
+    color: orange;
+    font-family: "Overpass", sans-serif;
+    padding-top: 40px;
+    text-shadow: 1px 1px 2px grey;
+  }
+  
+  #texto-r {
+    color: white;
+    text-shadow: 1px 1px 2px grey;
+  }
+  
+  #button-r {
+    background-color: orange;
+  }
+  
+  .fondoreservas2 {
+    background-image: url(./images/fondoreservas2.jpg);
+    background: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 40vh;
+    background-attachment: fixed;
+  }
+  
+  #footer-reservas {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column-reverse;
+  }
+  
+  .logos {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+  }
+  
+  .footer2-r {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: orange;
+    text-shadow: 1px 1px 2px grey;
+  }
+  
+  .mb-3 {
+    font-family: "Overpass", sans-serif;
+  }/*# sourceMappingURL=styles.css.map */
