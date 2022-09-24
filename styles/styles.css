@@ -70,7 +70,7 @@
   justify-content: center;
   align-items: flex-end;
   color: orange;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 1px 1px 2px grey;
 }
 
 .footer1 {
@@ -163,7 +163,6 @@
   text-transform: uppercase;
   margin-bottom: 100px;
   text-shadow: 1px 1px 2px grey;
-  font-size: 16px;
 }
 
 .main-img1 {
@@ -271,8 +270,6 @@
 .main-sub-a {
   display: flex;
   color: black;
-  text-shadow: 1px 1px 2px grey;
-  font-size: 16px;
 }
 
 #main-subtitulos2-a {
@@ -285,7 +282,7 @@
   align-items: center;
   align-content: normal;
   text-shadow: 1px 1px 2px grey;
-  }
+}
 
 .logos {
   display: flex;
@@ -299,7 +296,7 @@
   justify-content: center;
   align-items: flex-end;
   color: orange;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 1px 1px 2px grey;
 }
 
 .footer1-a {
@@ -368,7 +365,7 @@
   color: orange;
   height: 15vh;
   font-family: "Overpass", sans-serif;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 1px 1px 2px grey;
 }
 
 .main-subtitulos-r {
@@ -392,7 +389,7 @@
 }
 
 .fondo-comollegar2 {
-  background-image: url(../images/fondo-comollegar.jpg);
+  background-image: url(./images/fondo-comollegar.jpg);
   background-position: bottom;
   background: cover;
   background-repeat: no-repeat;
@@ -405,7 +402,7 @@
 #body-reservas {
   font-family: "cincel decorative";
   background-color: antiquewhite;
-  background-image: url(../images/fondoreservas2.jpg);
+  background-image: url(./images/fondoreservas2.jpg);
   background: cover;
   background-repeat: no-repeat;
   background-size: cover;
@@ -415,7 +412,7 @@
 }
 
 #header-reservas {
-  background-image: url(../images/fondoreservas2.jpg);
+  background-image: url(./images/fondoreservas2.jpg);
   background: cover;
   background-repeat: no-repeat;
   background-size: cover;
@@ -436,12 +433,12 @@
   color: orange;
   font-family: "Overpass", sans-serif;
   padding-top: 40px;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 1px 1px 2px grey;
 }
 
 #texto-r {
   color: white;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 1px 1px 2px grey;
 }
 
 #button-r {
@@ -476,7 +473,7 @@
   justify-content: center;
   align-items: flex-end;
   color: orange;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 1px 1px 2px grey;
 }
 
 .mb-3 {
