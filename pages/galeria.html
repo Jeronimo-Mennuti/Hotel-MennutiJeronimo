@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../styles.css" rel="stylesheet" type="text/css">
+    <link href="../styles/styles.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Acme&family=Cinzel+Decorative&display=swap" rel="stylesheet">
@@ -107,49 +107,55 @@
         </div>
         
         <div class="carrusel-div" class="col-6">
-            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" class="col-12">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="../images/habitacion2.webp" class="d-block w-80" alt="apartamento2">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../images/habitacion3.webp" class="d-block w-80" alt="apartamento3">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../images/habitacion4.webp" class="d-block w-80" alt="apartamento4">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../images/habitacion5.webp" class="d-block w-80" alt="apartamento5">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../images/habitacion6.webp" class="d-block w-80" alt="apartamento6">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../images/habitacion7.webp" class="d-block w-80" alt="apartamento7">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../images/habitacion8.webp" class="d-block w-80" alt="apartamento8">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../images/habitacion9.webp" class="d-block w-80" alt="apartamento9">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../images/habitacion10.webp" class="d-block w-80" alt="apartamento10">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../images/habitacion11.webp" class="d-block w-80" alt="apartamento11">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" class="col-12">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../images/habitacion2.webp" class="d-block w-80" alt="apartamento2">
               </div>
-            </section>
+              <div class="carousel-item">
+                <img src="../images/habitacion3.webp" class="d-block w-80" alt="apartamento3">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/habitacion4.webp" class="d-block w-80" alt="apartamento4">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/habitacion5.webp" class="d-block w-80" alt="apartamento5">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/habitacion6.webp" class="d-block w-80" alt="apartamento6">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/habitacion7.webp" class="d-block w-80" alt="apartamento7">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/habitacion8.webp" class="d-block w-80" alt="apartamento8">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/habitacion9.webp" class="d-block w-80" alt="apartamento9">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/habitacion10.webp" class="d-block w-80" alt="apartamento10">
+              </div>
+              <div class="carousel-item">
+                <img src="../images/habitacion11.webp" class="d-block w-80" alt="apartamento11">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          </div>
+           
 
             <div class="fondo-galeria2"></div>
         
@@ -181,3 +187,6 @@
 </body>
 
 </html>
+
+
+

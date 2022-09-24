@@ -1,19 +1,21 @@
 #main-home {
     display: flex;
     justify-content: center;
-    padding-bottom: 14%;
-    .texto-main {
+    height: 42vh;
+    .texto-main{
+    display:flex; 
         text-align: center;
         display: flex;
         flex-direction: column;
         align-items: stretch;
-        color: orange;
+        color: $font-color3;
         font-size: 40px;
-        font-family: "Overpass", sans-serif;
-        text-shadow: 1px 1px 2px black;
+        font-family: $font-2;
+        text-shadow: 1px 1px 2px $font-color1;
       }
       #texto-main2 {
-        color: white;
+        display:flex;
+        color: $font-color2;
         display: flex;
         justify-content: center;
         font-size: 25px;

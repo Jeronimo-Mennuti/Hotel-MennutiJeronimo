@@ -4,14 +4,14 @@
     flex-direction: column-reverse;
     .footer1 {
         display: flex;
-        color: white;
+        color: $font-color2;
       }
       .footer2 {
         display: flex;
         justify-content: center;
         align-items: flex-end;
-        color: orange;
-        text-shadow: 1px 1px 2px grey;
+        color: $font-color3;
+        text-shadow: 1px 1px 2px $font-color4;
       }
     .logos {
         display: flex;
