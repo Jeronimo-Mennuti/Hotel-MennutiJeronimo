@@ -1,0 +1,23 @@
+#footer-home {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column-reverse;
+}
+#footer-home .footer1 {
+  display: flex;
+  color: white;
+}
+#footer-home .footer2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: orange;
+  text-shadow: 1px 1px 2px grey;
+}
+#footer-home .logos {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: row;
+  opacity: 0.8;
+}/*# sourceMappingURL=footer-home.css.map */

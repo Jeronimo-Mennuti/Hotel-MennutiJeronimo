@@ -13,12 +13,6 @@
   padding-bottom: 19%;
 }
 
-#main-home {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 14%;
-}
-
 .titulo {
   color: orange;
   display: flex;
@@ -33,6 +27,11 @@
   font-size: 20px;
 }
 
+#main-home {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 14%;
+}
 .texto-main {
   text-align: center;
   display: flex;
