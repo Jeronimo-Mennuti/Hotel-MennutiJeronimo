@@ -3,14 +3,14 @@
     display:flex;
     .titulo {
       display:flex;
-      color: $font-color3;
+      color: map-get($colores, font-color3);
       justify-content: flex-start;
-      text-shadow: 1px 1px 2px $font-color1;
+      text-shadow: 1px 1px 2px map-get($colores, font-color1);
       }
       .lista {
         display:flex;
         justify-content: center;
-        font-family: $font-color2;
+        font-family: map-get($colores, font-color2);
         font-size: 20px;
       }
   }

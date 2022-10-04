@@ -4,20 +4,17 @@
     flex-direction: column-reverse;
     .footer1 {
         display: flex;
-        color: $font-color2;
+        color: map-get($colores, font-color2);
       }
       .footer2 {
         display: flex;
         justify-content: center;
         align-items: flex-end;
-        color: $font-color3;
-        text-shadow: 1px 1px 2px $font-color4;
+        color: map-get($colores, font-color3);
+        text-shadow: 1px 1px 2px map-get($colores, font-color4);
       }
     .logos {
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
-        flex-direction: row;
-        opacity: 0.8;
+        @extend %logosDefault;
+        @include logos($opacity: 0.8);
       }
  }

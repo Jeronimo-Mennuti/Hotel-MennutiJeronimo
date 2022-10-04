@@ -8,14 +8,14 @@
         display: flex;
         flex-direction: column;
         align-items: stretch;
-        color: $font-color3;
+        color: map-get($colores, font-color3);
         font-size: 40px;
-        font-family: $font-2;
-        text-shadow: 1px 1px 2px $font-color1;
+        font-family: map-get($fonts, font-2);
+        text-shadow: 1px 1px 2px map-get($colores, font-color1);
       }
       #texto-main2 {
         display:flex;
-        color: $font-color2;
+        color: map-get($colores, font-color2);
         display: flex;
         justify-content: center;
         font-size: 25px;

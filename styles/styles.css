@@ -10,13 +10,13 @@
 }
 
 #header-home {
-  height: 45vh;
+  padding-bottom: 19%;
 }
 
 #main-home {
   display: flex;
   justify-content: center;
-  height: 42vh;
+  padding-bottom: 14%;
 }
 
 .titulo {
@@ -389,7 +389,7 @@
 }
 
 .fondo-comollegar2 {
-  background-image: url(./images/fondo-comollegar.jpg);
+  background-image: url(../images/fondo-comollegar.jpg);
   background-position: bottom;
   background: cover;
   background-repeat: no-repeat;
@@ -402,7 +402,7 @@
 #body-reservas {
   font-family: "cincel decorative";
   background-color: antiquewhite;
-  background-image: url(./images/fondoreservas2.jpg);
+  background-image: url(../images/fondoreservas2.jpg);
   background: cover;
   background-repeat: no-repeat;
   background-size: cover;
@@ -412,7 +412,7 @@
 }
 
 #header-reservas {
-  background-image: url(./images/fondoreservas2.jpg);
+  background-image: url(../images/fondoreservas2.jpg);
   background: cover;
   background-repeat: no-repeat;
   background-size: cover;
@@ -446,7 +446,7 @@
 }
 
 .fondoreservas2 {
-  background-image: url(./images/fondoreservas2.jpg);
+  background-image: url(../images/fondoreservas2.jpg);
   background: cover;
   background-repeat: no-repeat;
   background-size: cover;
@@ -479,3 +479,5 @@
 .mb-3 {
   font-family: "Overpass", sans-serif;
 }
+
+/*# sourceMappingURL=styles.css.map */

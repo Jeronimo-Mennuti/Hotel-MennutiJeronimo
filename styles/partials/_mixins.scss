@@ -1,0 +1,7 @@
+@mixin logos($opacity){
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+    opacity: $opacity;   
+}
