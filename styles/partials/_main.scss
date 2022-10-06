@@ -1,0 +1,226 @@
+/*MAIN HOME*/
+#main-home {
+    display: flex;
+    justify-content: center;
+    height: 41vh;
+    .texto-main{
+        display:flex; 
+        text-align:center;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        color: map-get($colores, font-color3);
+        font-size: 40px;
+        font-family: map-get($fonts, font-2);
+        text-shadow: 1px 1px 2px map-get($colores, font-color1);
+      }
+      #texto-main2 {
+        display:flex;
+        color: map-get($colores, font-color2);
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+      }
+  }
+
+  /*MAIN GALERIA*/
+  
+  .main-titulo-galeria {
+    display: flex;
+    justify-content: center;
+    color: font-color3;
+    font-family: font-2;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    text-shadow: 1px 1px 2px font-color1;
+    .main-sub-galeria {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-family: font-2;
+      color: font-color1;
+    }
+    .carrusel-div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+    }
+}
+
+/*MAIN RESTAURANT*/
+.texto-main-rest {
+  display: flex;
+  justify-content: center;
+  color: font-color3;
+  font-family: font-2;
+  padding-top: 80px;
+  text-shadow: 1px 1px 2px font-color1;
+  .main-sub {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: font-2;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    text-shadow: 1px 1px 2px font-color1;
+  }
+  #texto-apertura {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: font-color3;
+    font-family: font-2;
+    text-align: center;
+    text-shadow: 1px 1px 2px font-color1;
+  }
+  .main-sub2 {
+    color: font-color1;
+    text-transform: uppercase;
+  }
+  .main-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: font-2;
+    margin-bottom: 100px;
+    text-shadow: 1px 1px 2px font-color1;
+  }
+  .titulo-menu {
+    color: font-color3;
+  }
+  #main-img-desayuno2 {
+    float: right;
+  }
+  .carrusel-div-r {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+  .fondo-restaurant2 {
+    display: flex;
+    background-image: url(../images/fondo-restaurant.webp);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    background-attachment: fixed;
+    padding-top: 100px;
+    margin-bottom: 40px;
+  }
+}
+
+/*MAIN ACTIVIDADES*/
+.text-header1 {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  align-items: center;
+  color: font-color2;
+  text-shadow: 1px 1px 2px font-color1;
+  #main-titulo-a {
+    display: flex;
+    justify-content: center;
+    color: font-color3;
+    height: 15vh;
+    font-family: font-2;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 15vh;
+    justify-content: flex-end;
+    text-shadow: 1px 1px 2px font-color1;
+  }
+  .main-sub-a {
+    display: flex;
+    color: font-color1;
+  } 
+  #main-subtitulos2-a {
+    display: flex;
+    justify-content: flex-start;
+    height: 30vh;
+    color: font-color3;
+    font-family: font-2;
+    flex-direction: column;
+    align-items: center;
+    align-content: normal;
+    text-shadow: 1px 1px 2px font-color1;
+}
+#parrafos{
+  color: rgb(0, 0, 0);
+  }
+.texto-mapa {
+    display: flex;
+    height: 60vh;
+    transform: translate(10px, 20px);
+  }
+  #cards {
+    justify-content: center;
+  }
+  .card {
+    font-family: font-2;
+    padding: 0%;
+    text-align: center;
+    box-shadow: 0 12px 16px font-color5;
+    transition: all 0.25s;
+    margin: 10px;
+  }
+  .card
+  &:hover {
+    transform: translateY(-15px);
+    box-shadow: 10 15px 20px font-color5;
+    cursor: pointer;
+  }
+  .card-title {
+    color: font-color3;
+    text-align: center;
+  }
+}
+
+/* MAIN COMO LLEGAR*/
+
+#main-titulo-c {
+  display: flex;
+  justify-content: center;
+  color: font-color3;
+  height: 15vh;
+  font-family: font-2;
+  text-shadow: 1px 1px 2px font-color1;
+  #main-maps {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+}
+
+/* MAIN RESERVAS*/
+
+#main-reservas {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  text-shadow: 1px 1px 2px font-color1;
+  #texto-main-r {
+    display: flex;
+    justify-content: center;
+    color: font-color3;
+    font-family: font-2;
+    padding-top: 40px;
+    text-shadow: 1px 1px 2px font-color1;
+    }
+    #texto-r {
+      color: font-color2;
+      text-shadow: 1px 1px 2px font-color1;
+      }
+      #button-r {
+        background-color: font-color3;
+        text-shadow: 1px 1px 2px font-color1;
+        }
+        .mb-3 {
+          font-family: font-2;
+          }
+  }
+

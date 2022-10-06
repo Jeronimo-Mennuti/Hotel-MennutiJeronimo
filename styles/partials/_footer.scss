@@ -1,4 +1,4 @@
-#footer-home {
+#footer {
     display: flex;
     align-items: stretch;
     flex-direction: column-reverse;
@@ -16,5 +16,7 @@
     .logos {
         @extend %logosDefault;
         @include logos($opacity: 0.8);
+        font-size: 60px;
       }
  }
+

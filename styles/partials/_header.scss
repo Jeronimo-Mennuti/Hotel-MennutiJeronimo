@@ -1,0 +1,83 @@
+/* SCSS HOME*/
+#header-home {
+  background-size: cover;
+  background-position: bottom;
+  height: 47vh;
+  background-attachment: fixed;
+  font-family: font-1;
+    .titulo {
+      display:flex;
+      color: map-get($colores, font-color3);
+      justify-content: flex-start;
+      text-shadow: 1px 1px 2px map-get($colores, font-color1);
+      }
+      .lista {
+        display:flex;
+        justify-content: center;
+        font-family: map-get($colores, font-color2);
+        font-size: 20px;
+      }
+      .lista ul li a{
+        color:white;
+        text-shadow: 1px 1px 2px rgb(0, 0, 0);
+      }
+  }
+
+/*HEADER GALERIA */
+#header-galeria {
+  background-image: url(../images/fondogaleria.webp);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  background-attachment: fixed;
+}
+
+/*HEADER RESTAURANT */
+#header-restaurant {
+  background-image: url(../images/fondo-restaurant.webp);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  background-attachment: fixed;
+}
+
+/*HEADER ACTIVIDADES */
+#header-actividades {
+  background-image: url(../images/actividades5.jpg);
+  background-position: bottom;
+  background: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+  background-attachment: fixed;
+  background-size: cover;
+  .text-header1 {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    color: font-color2;
+    text-shadow: 1px 1px 2px font-color1;
+  }
+}
+
+/*HEADER COMO LLEGAR */
+#header-comollegar {
+  background-image: url(../images/fondo-comollegar.jpg);
+  background-position: bottom;
+  background: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+  background-attachment: fixed;
+}
+
+/*HEADER RESERVAS*/ 
+#header-reservas {
+  background-image: url(../images/fondoreservas2.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 30vh;
+  background-attachment: fixed;
+  font-family: font-1;
+  }

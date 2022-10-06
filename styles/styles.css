@@ -1,29 +1,30 @@
 /* CSS HOME */
 #body-home {
-  font-family: "cincel decorative";
-  background-image: url(../images/fondo-home.jpg);
-  background-position: bottom;
-  background: cover;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 20%;
+background-image: url(../images/fondo-home.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+font-family: "cincel decorative";
 }
 
 #header-home {
-  padding-bottom: 19%;
+background-size: cover;
+background-position: bottom;
+height: 47vh;
+background-attachment: fixed;
+font-family: "cincel decorative";
 }
 
 #main-home {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 14%;
+display: flex;
+justify-content: center;
+height: 41vh;
 }
 
 .titulo {
-  color: orange;
+  color: rgb(255, 165, 0);
   display: flex;
   justify-content: flex-start;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 .lista {
@@ -31,30 +32,51 @@
   justify-content: center;
   font-family: "Overpass", sans-serif;
   font-size: 20px;
+  
 }
-
+.lista ul li a{
+  color:white;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
 .texto-main {
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  color: orange;
+  color: rgb(255, 165, 0);
   font-size: 40px;
   font-family: "Overpass", sans-serif;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 #texto-main2 {
-  color: white;
+  color: rgb(255,255,255);
   display: flex;
   justify-content: center;
   font-size: 25px;
 }
 
-#footer-home {
+#footer {
   display: flex;
   align-items: stretch;
   flex-direction: column-reverse;
+  color:rgb(255,255,255);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  font-family: "cincel decorative";
+}
+
+.footer1 {
+  display: flex;
+  color: rgb(255,255,255);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.footer2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: rgb(255, 165, 0);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 .logos {
@@ -63,25 +85,17 @@
   align-items: flex-end;
   flex-direction: row;
   opacity: 0.8;
+  font-size: 60px;
+}
+.logos .logo1{
+max-height: 100px;
 }
 
-.footer2 {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  color: orange;
-  text-shadow: 1px 1px 2px grey;
-}
-
-.footer1 {
-  display: flex;
-  color: white;
-}
 
 /* CSS GALERIA */
 #body-galeria {
   font-family: "cincel decorative";
-  background-color: antiquewhite;
+  background-color: rgb(250, 235, 215);
 }
 
 #header-galeria {
@@ -96,13 +110,13 @@
 .main-titulo-galeria {
   display: flex;
   justify-content: center;
-  color: orange;
+  color: rgb(255, 165, 0);
   font-family: "Overpass", sans-serif;
   flex-direction: column;
   align-items: center;
   text-transform: uppercase;
   margin-bottom: 60px;
-  text-shadow: 1px 1px 2px grey;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 .main-sub-galeria {
@@ -110,7 +124,7 @@
   justify-content: center;
   text-align: center;
   font-family: "Overpass", sans-serif;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .carrusel-div {
@@ -134,7 +148,7 @@
 /*CSS RESTAURANT */
 #body-restaurant {
   font-family: "cincel decorative";
-  background-color: antiquewhite;
+  background-color: rgb(250, 235, 215);
 }
 
 #header-restaurant {
@@ -149,10 +163,10 @@
 .texto-main-rest {
   display: flex;
   justify-content: center;
-  color: orange;
+  color: rgb(255, 165, 0);
   font-family: "Overpass", sans-serif;
   padding-top: 80px;
-  text-shadow: 1px 1px 2px grey;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 .main-sub {
@@ -162,7 +176,7 @@
   font-family: "Overpass", sans-serif;
   text-transform: uppercase;
   margin-bottom: 100px;
-  text-shadow: 1px 1px 2px grey;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 .main-img1 {
@@ -176,14 +190,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: orange;
+  color: rgb(255, 165, 0);
   font-family: "Overpass", sans-serif;
   text-align: center;
-  text-shadow: 1px 1px 2px grey;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 .main-sub2 {
-  color: black;
+  color: rgb(0, 0, 0);
   text-transform: uppercase;
 }
 
@@ -193,11 +207,11 @@
   align-items: center;
   font-family: "Overpass", sans-serif;
   margin-bottom: 100px;
-  text-shadow: 1px 1px 2px grey;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 .titulo-menu {
-  color: orange;
+  color: rgb(255, 165, 0);
 }
 
 #main-img-desayuno2 {
@@ -225,7 +239,7 @@
 /* CSS ACTIVIDADES */
 #body-actividades {
   font-family: "cincel decorative";
-  background-color: antiquewhite;
+  background-color: rgb(250, 235, 215);
 }
 
 #header-actividades {
@@ -243,20 +257,14 @@
   justify-content: center;
   height: 200px;
   align-items: center;
-  color: white;
-  text-shadow: 1px 1px 2px black;
-}
-
-#footer-actividades {
-  display: flex;
-  align-items: stretch;
-  flex-direction: column-reverse;
+  color: rgb(255,255,255);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 #main-titulo-a {
   display: flex;
   justify-content: center;
-  color: orange;
+  color: rgb(255, 165, 0);
   height: 15vh;
   font-family: "Overpass", sans-serif;
   flex-direction: column;
@@ -264,45 +272,29 @@
   text-align: center;
   height: 15vh;
   justify-content: flex-end;
-  text-shadow: 1px 1px 2px grey;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 .main-sub-a {
   display: flex;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 #main-subtitulos2-a {
   display: flex;
   justify-content: flex-start;
   height: 30vh;
-  color: orange;
+  color: rgb(255, 165, 0);
   font-family: "Overpass", sans-serif;
   flex-direction: column;
   align-items: center;
   align-content: normal;
-  text-shadow: 1px 1px 2px grey;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
-.logos {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  flex-direction: row;
+#parrafos{
+color: rgb(0, 0, 0);
 }
-
-.footer2-a {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  color: orange;
-  text-shadow: 1px 1px 2px grey;
-}
-
-.footer1-a {
-  display: flex;
-}
-
 .texto-mapa {
   display: flex;
   height: 60vh;
@@ -340,14 +332,14 @@
 }
 
 .card-title {
-  color: orange;
+  color: rgb(255, 165, 0);
   text-align: center;
 }
 
 /* CSS COMO LLEGAR */
 #body-comollegar {
   font-family: "cincel decorative";
-  background-color: antiquewhite;
+  background-color: rgb(250, 235, 215);
 }
 
 #header-comollegar {
@@ -359,33 +351,19 @@
   background-attachment: fixed;
 }
 
-#main-titulo-r {
+#main-titulo-c {
   display: flex;
   justify-content: center;
-  color: orange;
+  color: rgb(255, 165, 0);
   height: 15vh;
   font-family: "Overpass", sans-serif;
-  text-shadow: 1px 1px 2px grey;
-}
-
-.main-subtitulos-r {
-  display: flex;
-  justify-content: space-evenly;
-  height: 30vh;
-  color: orange;
-  font-family: "Overpass", sans-serif;
-  text-align: center;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 #main-maps {
   display: flex;
   justify-content: center;
   margin-bottom: 100px;
-}
-
-#parrafos {
-  color: black;
-  display: flex;
 }
 
 .fondo-comollegar2 {
@@ -400,84 +378,59 @@
 
 /* CSS RESERVAS */
 #body-reservas {
-  font-family: "cincel decorative";
-  background-color: antiquewhite;
-  background-image: url(../images/fondoreservas2.jpg);
-  background: cover;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
-  height: 40vh;
-  background-attachment: fixed;
+background-image: url(../images/fondoreservas2.jpg);
+background-size: cover;
+background-position: bottom;
+background-attachment: fixed;
 }
 
 #header-reservas {
-  background-image: url(../images/fondoreservas2.jpg);
-  background: cover;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
-  height: 30vh;
-  background-attachment: fixed;
+background-image: url(../images/fondoreservas2.jpg);
+background-size: cover;
+background-position: bottom;
+height: 30vh;
+background-attachment: fixed;
+font-family: "cincel decorative";
 }
 
 #main-reservas {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 100px;
+display: flex;
+justify-content: center;
+margin-bottom: 100px;
+text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 #texto-main-r {
-  display: flex;
-  justify-content: center;
-  color: orange;
-  font-family: "Overpass", sans-serif;
-  padding-top: 40px;
-  text-shadow: 1px 1px 2px grey;
+display: flex;
+justify-content: center;
+color: rgb(255, 165, 0);
+font-family: "Overpass", sans-serif;
+padding-top: 40px;
+text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 #texto-r {
-  color: white;
-  text-shadow: 1px 1px 2px grey;
+color: rgb(255,255,255);
+text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 #button-r {
-  background-color: orange;
+background-color: rgb(255, 165, 0);
+text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 .fondoreservas2 {
-  background-image: url(../images/fondoreservas2.jpg);
-  background: cover;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
-  height: 40vh;
-  background-attachment: fixed;
-}
-
-#footer-reservas {
-  display: flex;
-  align-items: stretch;
-  flex-direction: column-reverse;
-}
-
-.logos {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  flex-direction: row;
-}
-
-.footer2-r {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  color: orange;
-  text-shadow: 1px 1px 2px grey;
+background-image: url(../images/fondoreservas2.jpg);
+background: cover;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom;
+height: 40vh;
+background-attachment: fixed;
 }
 
 .mb-3 {
-  font-family: "Overpass", sans-serif;
+font-family: "Overpass", sans-serif;
 }
 
 /*# sourceMappingURL=styles.css.map */
