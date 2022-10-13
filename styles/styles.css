@@ -38,6 +38,9 @@ height: 41vh;
   color:white;
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
+.lista ul li a:hover{
+  color:orange;
+}
 .texto-main {
   text-align: center;
   display: flex;
@@ -87,9 +90,7 @@ height: 41vh;
   opacity: 0.8;
   font-size: 60px;
 }
-.logos .logo1{
-max-height: 100px;
-}
+
 
 
 /* CSS GALERIA */
@@ -250,6 +251,7 @@ max-height: 100px;
   height: 40vh;
   background-attachment: fixed;
   background-size: cover;
+  
 }
 
 .text-header1 {
@@ -433,4 +435,35 @@ background-attachment: fixed;
 font-family: "Overpass", sans-serif;
 }
 
+@media screen and (min-width: 390px){
+  #main-titulo-a{
+  display: none !important;
+  }
+  .mapa{
+   width: 340px;
+   height: 250px; 
+  }
+  .footer1{
+  display: none !important;
+  }
+  #parrafos{
+  display: none !important;
+  }
+  .titulo-parrafo-a{
+  display: none !important; 
+  }
+  .logos{
+  padding-left: 240px;
+  }
+  #texto-apertura{
+  display: none !important;
+  }
+  .main-img1{
+    display: none !important;
+  }
+  .text-header1{
+  display:none !important;
+  }
+  
+  
 /*# sourceMappingURL=styles.css.map */
